@@ -22,7 +22,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-white text-[#020202]">
-        <div className="max-w-7xl flex items-center gap-4 mx-auto px-6 py-24 md:py-32">
+        <div className="max-w-7xl flex items-center gap-4 mx-auto px-6 py-8 md:py-32">
           <div className="max-w-3xl">
             <div className="mb-8">
               <Image
@@ -34,13 +34,13 @@ export default function Home() {
                 className="w-auto h-24 md:h-32"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-2 leading-tight tracking-tighter">
+            <h1 className="text-4xl md:text-6xl font-bold mb-2 leading-tight tracking-tighter">
               Chambers of Gaurav
             </h1>
             <p className="text-xl md:text-2xl text-zinc-700 mb-4 pl-1">
-              Gaurav G Nair (BBA, LLB)
+              Gaurav G Nair (BBA, LLB Hons.)
             </p>
-            <p className="text-lg text-zinc-700 max-w-2xl pl-1">
+            <p className="text-lg text-zinc-500 max-w-2xl pl-1">
               Dedicated to providing professional legal services with integrity,
               expertise, and a commitment to justice.
             </p>
@@ -51,22 +51,22 @@ export default function Home() {
               Get in Touch
             </a>
           </div>
-          <img
+          {/* <img
             src="https://images.unsplash.com/photo-1619771833572-325fa5664609?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Gaurav G Nair"
             className="w-full h-[200px] object-cover"
-          />
+          /> */}
         </div>
       </section>
 
       {/* About & Specializations Section */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#020202] mb-4">
+          <div className="text-left mb-4 md:mb-16">
+            <h2 className="text-3xl font-bold text-[#020202] mb-2">
               About & Specializations
             </h2>
-            <p className="text-lg text-[#020202] max-w-2xl mx-auto">
+            <p className="text-lg text-zinc-500">
               Providing comprehensive legal services across various practice
               areas
             </p>
